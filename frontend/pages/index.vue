@@ -9,7 +9,7 @@
             <div v-for="(podcast, index) in podcasts" :key="index" class="mb-4">
               <h2 class="h4">{{ podcast.title }}</h2>
               <p class="mb-1">{{ podcast.description }}</p>
-              <nuxt-link :to="`/${podcast.id}`">
+              <nuxt-link :to="`/podcasts/${podcast.id}`">
                 <a>Listen</a>
               </nuxt-link>
             </div>
