@@ -6,9 +6,13 @@
           <div v-if="!podcasts">Loading...</div>
           <div v-else>
             <h1 class="mb-5 border-bottom">Podcasts</h1>
-            <div v-for="(podcast, index) in podcasts" :key="index" class="mb-4">
-              <h2 class="h4">{{ podcast.title }}</h2>
-              <p class="mb-1">{{ podcast.description }}</p>
+            <div
+              v-for="(podcast, index) in podcasts.data"
+              :key="index"
+              class="mb-4"
+            >
+              <h2 class="h4">{{ podcast.attributes.title }}</h2>
+              <p class="mb-1">{{ podcast.attributes.description }}</p>
               <nuxt-link :to="`/podcasts/${podcast.id}`">
                 <a>Listen</a>
               </nuxt-link>
