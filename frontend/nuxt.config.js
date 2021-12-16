@@ -50,7 +50,7 @@ export default {
   ],
 
   strapi: {
-    url: 'http://localhost:1337',
+    url: 'http://localhost:1337/api',
     entities: ['podcasts'],
   },
 
