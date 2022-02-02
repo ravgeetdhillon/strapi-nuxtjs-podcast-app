@@ -2,7 +2,7 @@
 
 # Implementing Audio in a Podcast App with Strapi
 
-This repository servers as a code container for the tutorial I wrote on [Strapi's Blog](https://strapi.io/blog/#todo).
+This repository servers as a code container for the tutorial I wrote on [Strapi's Blog](https://strapi.io/blog/implementing-audio-in-a-podcast-app-with-strapi).
 
 > Link will be updated once the article is published.
 
@@ -57,7 +57,7 @@ $ npm install
 $ npm run dev
 ```
 
-> For detailed instructions, [read the blog](#todo).
+> For detailed instructions, [read the blog](https://strapi.io/blog/implementing-audio-in-a-podcast-app-with-strapi).
 
 ## Tech Stack
 
