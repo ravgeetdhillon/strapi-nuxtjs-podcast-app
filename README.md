@@ -4,8 +4,6 @@
 
 This repository servers as a code container for the tutorial I wrote on [Strapi's Blog](https://strapi.io/blog/implementing-audio-in-a-podcast-app-with-strapi).
 
-> Link will be updated once the article is published.
-
 ## Features
 
 - [x] Strapi for managing Podcasts
